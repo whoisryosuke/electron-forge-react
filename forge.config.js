@@ -46,4 +46,18 @@ module.exports = {
       },
     ],
   ],
+  publishers: [
+    {
+      name: "@electron-forge/publisher-github",
+      config: {
+        repository: {
+          // Change to your Github username
+          owner: "whoisryosuke",
+          // Change to repo name
+          name: "electron-forge-react",
+        },
+        prerelease: true,
+      },
+    },
+  ],
 };
