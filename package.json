@@ -2,7 +2,7 @@
   "name": "electron-forge-react",
   "productName": "electron-forge-react",
   "version": "1.0.0",
-  "description": "My Electron application description",
+  "description": "A template for creating Electron apps with React, Typescript, Webpack using Electron Forge",
   "main": ".webpack/main",
   "scripts": {
     "start": "electron-forge start",
